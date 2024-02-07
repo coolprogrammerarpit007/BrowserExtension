@@ -1,0 +1,75 @@
+* {
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* green -> #5f9341 */
+body {
+  min-width: 400px;
+}
+
+#input-el {
+  display: block;
+  width: 100%;
+  border: 2px solid #5f9341;
+  margin-bottom: 0.6em;
+}
+
+#input-btn {
+  color: #fff;
+  background-color: #5f9341;
+  border: none;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+#save-btn {
+  color: #fff;
+  background-color: #5f9341;
+  border: none;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+#input-btn:hover {
+  color: #5f9341;
+  background-color: #fff;
+  border: 1px solid #5f9341;
+}
+#save-btn:hover {
+  color: #5f9341;
+  background-color: #fff;
+  border: 1px solid #5f9341;
+}
+
+#del-btn {
+  color: #5f9341;
+  background-color: #fff;
+  border: 1px solid #5f9341;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#del-btn:hover {
+  color: #fff;
+  background-color: #5f9341;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+a {
+  color: #5f9341;
+}
